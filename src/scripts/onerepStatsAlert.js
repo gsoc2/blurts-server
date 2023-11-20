@@ -48,6 +48,7 @@ export async function checkStats() {
   }
 }
 
+// TODO use the shared version when this is converted to Typescript.
 async function onerepFetch(path, options) {
   const onerepApiBase = process.env.ONEREP_API_BASE;
   if (!onerepApiBase) {
